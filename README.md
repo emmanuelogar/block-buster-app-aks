@@ -132,7 +132,14 @@ kubectl get nodes
 ```
 9. **Quick Test (port-forwarding) If you just want to check quickly from your local machine: :**
 ```bash
-kubectl port-forward svc/block-buster-app 8080:80 -n block-buster-app
+kubectl get svc -n block-buster-app                             
+NAME                    TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+block-buster-helm-app   ClusterIP   10.0.55.89   <none>        80/TCP    61s
+
+kubectl port-forward svc/block-buster-helm-app 8080:80 -n block-buster-app
 ```
 👉 Then open in browser:
 http://localhost:8080
+
+### 📌 Block Buster App
+![Blockbuster app](./public/blockbuster.jpg)

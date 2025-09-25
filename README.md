@@ -59,6 +59,7 @@ First, clone this repo to your local machine:<br/>
 git clone https://github.com/emmanuelogar/End-to-End-Complete-CICD-Devops-Project.git
 cd terraform/aks
 ```
+## (OPTIONAL)
 2. **State management with Azure Storage:**
 Terraform uses state files to keep track of the resources it manages. These state files are stored locally by default, but it's a best practice to store them remotely, especially when working in teams or in production environments.
 

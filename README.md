@@ -125,7 +125,7 @@ az aks get-credentials \
 ```bash
 kubectl get nodes
 ```
-8. **Deploy helm to :**
+8. **Deploy helm to aks cluster :**
 ```bash
 ./deploy.sh
 ```

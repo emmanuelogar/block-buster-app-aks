@@ -56,7 +56,7 @@ Terraform needs to authenticate with Azure to create and manage resources. Since
 1. **Clone the Repository:**
 First, clone this repo to your local machine:<br/>
 ```bash
-git clone https://github.com/emmanuelogar/End-to-End-Complete-CICD-Devops-Project.git
+git clone https://github.com/emmanuelogar/block-buster-app-aks
 cd terraform/aks
 ```
 ## (OPTIONAL)

@@ -1,0 +1,27 @@
+replicaCount: 1
+
+image:
+  repository: siddharth67/block-buster-dev:7.6.0
+  pullPolicy: Always
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: ""
+
+imagePullSecrets: []
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 80
+
+namespace:
+  name: block-buster-app
+  
+labels:
+  app:
+    name: block-buster-app
+    version: 7.6.0
+    env: dev
+
+podAnnotations: {}

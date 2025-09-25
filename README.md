@@ -127,7 +127,11 @@ az aks get-credentials \
 kubectl get nodes
 ```
 8. **Deploy helm to aks cluster :**
+- move to the root directory and deploy the app:
+
 ```bash
+cd ../../
+
 ./deploy.sh
 ```
 9. **Quick Test (port-forwarding) If you just want to check quickly from your local machine: :**

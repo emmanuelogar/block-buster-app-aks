@@ -129,5 +129,9 @@ kubectl get nodes
 ```bash
 ./deploy.sh
 ```
-
-
+9. **Quick Test (port-forwarding) If you just want to check quickly from your local machine: :**
+```bash
+kubectl port-forward svc/block-buster-app 8080:80 -n block-buster-app
+```
+👉 Then open in browser:
+http://localhost:8080

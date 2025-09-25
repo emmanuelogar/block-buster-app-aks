@@ -2,8 +2,8 @@
 set -euo pipefail
 
 # Variables
-RELEASE_NAME=tetris-app
-NAMESPACE=tetris-app
+RELEASE_NAME=block-buster-app
+NAMESPACE=block-buster-app
 CHART_PATH=./helm-charts
 VALUES_FILE=./values.yaml   # optional
 
